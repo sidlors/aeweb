@@ -16,8 +16,9 @@
 
 	<dependencyManagement>
 		<dependencies>
-   
-            
+
+			
+
 			<dependency>
 				<groupId>AdministracionEfectivoGrupo</groupId>
 				<artifactId>AdministracionEfectivo-jpa</artifactId>
@@ -63,7 +64,7 @@
 				<scope>import</scope>
 			</dependency>
 
-			
+
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-validator</artifactId>
@@ -109,6 +110,21 @@
 
 
 	<dependencies>
+	
+
+			
+			<dependency>
+			<groupId>org.jboss.javaee</groupId>
+			<artifactId>jboss-ejb-api_3.1</artifactId>
+			<version>1.0-alpha-1</version>
+			<scope>provied</scope>
+		</dependency>
+			<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-api</artifactId>
+				<version>6.0</version>
+				<scope>provied</scope>
+			</dependency>
 		<!-- Test dependencies -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -151,26 +167,26 @@
 			<version>2.2.8</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.quartz-scheduler</groupId>
 			<artifactId>quartz</artifactId>
 			<version>2.2.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.quartz-scheduler</groupId>
 			<artifactId>quartz-jobs</artifactId>
 			<version>2.2.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.5</version>
 		</dependency>
-		
-		
+
+
 	</dependencies>
 
 	<build>

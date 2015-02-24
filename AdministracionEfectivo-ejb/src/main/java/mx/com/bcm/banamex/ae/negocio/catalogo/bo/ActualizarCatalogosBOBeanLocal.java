@@ -1,7 +1,7 @@
 package mx.com.bcm.banamex.ae.negocio.catalogo.bo;
 
-import javax.servlet.ServletContextEvent;
-import javax.servlet.ServletContextListener;
+//import javax.servlet.ServletContextEvent;
+//import javax.servlet.ServletContextListener;
 
 //import org.quartz.Job;
 //import org.quartz.JobExecutionContext;
