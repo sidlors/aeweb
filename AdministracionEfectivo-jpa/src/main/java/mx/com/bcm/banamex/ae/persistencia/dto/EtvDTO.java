@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * @author OCE-WCD JESÚS CARBAJAL MONTES
@@ -21,6 +22,7 @@ public class EtvDTO implements Serializable{
 	private static final long serialVersionUID = 1L;
 	@Column(name = "ETV_NOMBRE_LARGO") //cambiar por nombre corto si y solo si se requiere
 	private String etvNombreLargo;
+	@Id
 	@Column(name = "ETV_IDN")
 	private Short etvIdn;
 	

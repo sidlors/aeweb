@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * @author OCE-WCD JESÚS CARBAJAL MONTES
@@ -14,9 +15,14 @@ import javax.persistence.Entity;
  */
 @Entity
 public class DivisaDTO implements Serializable{
+	
+	
+	
 	private static final long serialVersionUID = 1L;
 	@Column(name = "DIVISA_NOM_CORTO") 
 	private String divisaNombreCorto;
+	
+	@Id
 	@Column(name = "DIVISA_ID")
 	private Short divisa_Id;
 	/**

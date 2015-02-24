@@ -6,6 +6,7 @@ package mx.com.bcm.banamex.ae.persistencia.dto;
 import java.io.Serializable;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * @author OCE-WCD JESUS CARBAJAL MONTES 
@@ -22,6 +23,8 @@ public class TotalesRecepcionEfectivoDTO implements Serializable{
 	private int numerocomprobantes;
 	private int numeroEnvases;
 	private int importeTotal;
+	@Id
+	private int id;
 	/**
 	 * @return the numeroLotes
 	 */

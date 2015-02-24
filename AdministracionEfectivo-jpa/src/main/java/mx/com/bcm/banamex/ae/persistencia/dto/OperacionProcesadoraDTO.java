@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.NamedNativeQuery;
 import javax.persistence.SqlResultSetMapping;
 import javax.persistence.FieldResult;
@@ -41,6 +42,7 @@ public class OperacionProcesadoraDTO implements Serializable{
 	private int estructraSirh;
 	@Column(name = "ETV_NOMBRE_LARGO")
 	private String etvNombreLargo;
+	@Id
 	@Column(name = "ETV_IDN")
 	private Short etvIdn;
 	@Column(name = "SIRH_NOMBRE")
