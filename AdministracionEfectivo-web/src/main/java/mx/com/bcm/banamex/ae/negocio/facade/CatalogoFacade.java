@@ -1,11 +1,3 @@
-/*  * Todos los Derechos Reservados 2013 BCM.
- *  Bufete Consultor Mexicano
- *
- *  Este software contiene informacion propiedad exclusiva del BCM considerada
- *  Confidencial. Queda totalmente prohibido su uso o divulgacion en forma
- *  parcial o total.
- *  
- */
 package mx.com.bcm.banamex.ae.negocio.facade;
 
 import javax.ejb.Local;
@@ -36,8 +28,6 @@ import mx.com.bcm.banamex.ae.negocio.catalogo.bo.TipoDeOperacionBOBeanLocal;
 import mx.com.bcm.banamex.ae.negocio.catalogo.bo.TipoMovimientoBOBeanLocal;
 import mx.com.bcm.banamex.ae.persistencia.exception.EfectivoAplicacionBOException;
 
-
-
 /**
  * @author CARLOS MONTIEL GUTIÉRREZ
  * @author YAMIL OMAR DELGADO GONZALEZ
@@ -66,21 +56,16 @@ public interface CatalogoFacade {
 	 */
 	public abstract CatalogoBancoBOBeanLocal getCatalogoBancoBO();
 
-
-	/**r
+	/**
+	 * r
+	 * 
 	 * @return CatalogoCajaBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
 	public abstract CatalogoCajaBOBeanLocal getCatalogoCajaBO();
 
-
-	
-
-
 	public abstract CatalogoProcesadoraBOBeanLocal getCatalogoProcesadoraBO();
 
-	
-	
 	/**
 	 * @return CatalogoCpaeBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
@@ -93,14 +78,11 @@ public interface CatalogoFacade {
 	 */
 	public abstract CatalogoCuentaBOBeanLocal getCatalogoCuentaBO();
 
-
-
-
 	/**
 	 * @return CatalogoDenominacionesBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
-	 */ 
-    public abstract CatalogoDenominacionesDivisaBOBeanLocal getCatalogoDenominaDivisaBO();
+	 */
+	public abstract CatalogoDenominacionesDivisaBOBeanLocal getCatalogoDenominaDivisaBO();
 
 	/**
 	 * @return CatalogoDivisaBOBeanLocal
@@ -108,7 +90,6 @@ public interface CatalogoFacade {
 	 */
 	public abstract CatalogoDivisaBOBeanLocal getCatalogoDivisaBO();
 
-	
 	/**
 	 * @return CatalogoEmpleadoBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
@@ -125,32 +106,31 @@ public interface CatalogoFacade {
 	 * @return CatalogoFechasContablesBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
-    public abstract CatalogoFechasContablesBOBeanLocal getCatalogoFechasContablesBO();
+	public abstract CatalogoFechasContablesBOBeanLocal getCatalogoFechasContablesBO();
+
 	/**
-	 *  @throws EfectivoAplicacionBOException
+	 * @throws EfectivoAplicacionBOException
 	 */
-	public  abstract CatalogoMensajeAewebBOBeanLocal getCatalogoMensajeAewebBO();
-   
-	
+	public abstract CatalogoMensajeAewebBOBeanLocal getCatalogoMensajeAewebBO();
+
 	/**
 	 * @return CatalogoModuloSistemaBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
 	public abstract CatalogoModuloSistemaBOBeanLocal getCatalogoModuloSistemaBO();
 
-	
 	/**
 	 * @return CatalogoPlazaBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
 	public abstract CatalogoPlazaBOBeanLocal getCatalogoPlazaBO();
-	
+
 	/**
 	 * @return CatalogoSIRHBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
 	public abstract CatalogoSIRHBOBeanLocal getCatalogoSIRHBO();
-	
+
 	/**
 	 * @return CatalogoSubBovedaBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
@@ -162,35 +142,39 @@ public interface CatalogoFacade {
 	 * @return CatalogoTurnoBOBeanLocal
 	 */
 	public abstract CatalogoTurnoBOBeanLocal getCatalogoTurnoBO();
-	
+
 	/**
 	 * @return CatalogoUnidadNegocioBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
 	public abstract CatalogoUnidadNegocioBOBeanLocal getCatalogoUnidadNegocioBO();
-	
+
 	/**
 	 * @return CatalogoContratoBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
 	public abstract CatalogoContratoBOBeanLocal getContratoBO();
-	
+
 	public abstract CatalogoCuentaMayorBOBeanLocal getCuentaMayorBO();
+
 	/**
 	 * @return CatalogoDiasInhabilesBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
 	public abstract CatalogoDiasInhabilesBOBeanLocal getCatalogoDiasInhabilesBO();
+
 	/**
 	 * @return ConsultasyReportesProcesadoraBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
 	public abstract ConsultasyReportesProcesadoraBOBeanLocal getConsultayReportesProcesadoraBO();
+
 	/**
 	 * @return TipoDeOperacionBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
 	 */
 	public abstract TipoDeOperacionBOBeanLocal getTipoOperacionProcesadoraBO();
+
 	/**
 	 * @return TipoMoviemientoBOBeanLocal
 	 * @throws EfectivoAplicacionBOException
