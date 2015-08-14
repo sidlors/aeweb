@@ -46,8 +46,7 @@
 		<dependency>
 			<groupId>AdministracionEfectivoGrupo</groupId>
 			<artifactId>AdministracionEfectivo-jpa</artifactId>
-			<type>test-jar</type>
-			<scope>test</scope>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>
