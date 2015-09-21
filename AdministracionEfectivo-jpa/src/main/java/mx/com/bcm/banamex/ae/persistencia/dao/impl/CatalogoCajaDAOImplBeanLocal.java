@@ -91,12 +91,5 @@ implements CatalogoCajaDAOBeanLocal {
 		    return criteria.getResultList();
 		}
 
-		/* (non-Javadoc)
-		 * @see mx.com.bcm.banamex.ae.persistencia.common.Dao#remove(java.lang.Object)
-		 */
-		@Override
-		public void remove(Caja instance) {
-			// TODO Auto-generated method stub
-			
-		}
+
 }

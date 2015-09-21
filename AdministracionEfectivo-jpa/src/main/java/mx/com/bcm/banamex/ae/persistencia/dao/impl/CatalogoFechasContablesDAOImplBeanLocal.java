@@ -40,14 +40,7 @@ public class CatalogoFechasContablesDAOImplBeanLocal extends GlobalJpaDaoBean<Fe
   		return fechasContables;
    	  }
 
-	/* (non-Javadoc)
-	 * @see com.mx.bcm.banamex.ae.persistencia.common.Dao#remove(java.lang.Object)
-	 */
-	@Override
-	public void remove(FechaContable instance) {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 	/* (non-Javadoc)
 	 * @see mx.com.bcm.banamex.ae.persistencia.dao.CatalogoFechasContablesDAOBeanLocal#obtenerFechaContableActiva()

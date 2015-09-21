@@ -104,14 +104,6 @@ public class CatalogoUnidadNegocioDAOImpBeanLocal extends GlobalJpaDaoBean<Unida
 
 
 
-	/* (non-Javadoc)
-	 * @see mx.com.bcm.banamex.ae.persistencia.common.Dao#remove(java.lang.Object)
-	 */
-	@Override
-	public void remove(UnidadDeNegocio instance) {
-		// TODO Auto-generated method stub
-		
-	}
 
 
 

@@ -95,7 +95,7 @@
 					</commands>
 				</configuration>
 				<executions>
-					
+
 				</executions>
 			</plugin>
 
@@ -105,6 +105,4 @@
 
 	</build>
 
-
-	<description>ear chivo</description>
 </project>

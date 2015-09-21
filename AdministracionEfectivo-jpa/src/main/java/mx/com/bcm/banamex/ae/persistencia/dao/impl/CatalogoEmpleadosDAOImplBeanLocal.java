@@ -70,14 +70,6 @@ implements CatalogoEmpleadosDAOBeanLocal {
 			return criteria.getResultList();
 		}
 
-		/* (non-Javadoc)
-		 * @see mx.com.bcm.banamex.ae.persistencia.common.Dao#remove(java.lang.Object)
-		 */
-		@Override
-		public void remove(Empleado instance) {
-			// TODO Auto-generated method stub
-			
-		}
 
 		/* (non-Javadoc)
 		 * @see mx.com.bcm.banamex.ae.persistencia.dao.CatalogoEmpleadosDAOBeanLocal#consultaEmpleadoNomina(mx.com.bcm.banamex.ae.persistencia.vo.CambioDeLaFechaContableVO)
