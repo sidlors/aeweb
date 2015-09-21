@@ -1,0 +1,14 @@
+*.project
+*.prefs
+*.classpath
+AdministracionEfectivo-ear/.settings/*
+AdministracionEfectivo-web/.settings/*
+*.container
+AdministracionEfectivo-ejb/.settings/*
+AdministracionEfectivo-jpa/.settings/*
+AdministracionEfectivo-web/.tern-project
+AdministracionEfectivo-web/.settings/*
+AdministracionEfectivo-seguridad/.settings/*
+*target*
+*.class
+*bin/.*
