@@ -30,8 +30,6 @@
 				<groupId>AdministracionEfectivoGrupo</groupId>
 				<artifactId>AdministracionEfectivo-jpa</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
-				<type>test-jar</type>
-				<scope>test</scope>
 			</dependency>
 
 			<dependency>
@@ -53,7 +51,6 @@
 				<artifactId>AdministracionEfectivo-web</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 				<type>war</type>
-				<scope>compile</scope>
 			</dependency>
 
 
@@ -61,7 +58,6 @@
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-validator</artifactId>
 				<version>4.1.0.Final</version>
-				<scope>provided</scope>
 				<exclusions>
 					<exclusion>
 						<groupId>org.slf4j</groupId>

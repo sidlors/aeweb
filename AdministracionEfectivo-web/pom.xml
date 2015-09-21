@@ -21,19 +21,17 @@
 			<groupId>AdministracionEfectivoGrupo</groupId>
 			<artifactId>AdministracionEfectivo-ejb</artifactId>
 			<type>ejb</type>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>AdministracionEfectivoGrupo</groupId>
 			<artifactId>AdministracionEfectivo-seguridad</artifactId>
 			<type>ejb</type>
-			<scope>provided</scope>
 		</dependency>
 
-		<!-- Import the JAX-RS API, we use provided scope as the API is included 
+		<!-- Import the JAX-RS API, we use provided scope as the API is included
 			in JBoss AS 7 -->
-		<!--<dependency> <groupId>org.jboss.spec.javax.ws.rs</groupId> <artifactId>jboss-jaxrs-api_1.1_spec</artifactId> 
-			<scope>provided</scope> </dependency> <dependency> <groupId>org.hibernate.javax.persistence</groupId> 
+		<!--<dependency> <groupId>org.jboss.spec.javax.ws.rs</groupId> <artifactId>jboss-jaxrs-api_1.1_spec</artifactId>
+			<scope>provided</scope> </dependency> <dependency> <groupId>org.hibernate.javax.persistence</groupId>
 			<artifactId>hibernate-jpa-2.0-api</artifactId> <scope>provided</scope> </dependency> -->
 
 
