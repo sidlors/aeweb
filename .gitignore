@@ -12,3 +12,4 @@ AdministracionEfectivo-seguridad/.settings/*
 *target*
 *.class
 *bin/.*
+/.sonar/
